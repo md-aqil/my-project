@@ -18,6 +18,7 @@
 					<div class="col-md-7">
 					<h3 class="news-header"><a href="see-all-news.php">Lorem ipsum dolor sit amet. sit ammet couselustion </a></h3>
 					<p class="text-muted">July 26, 2016 &nbsp; | &nbsp; By: Author</p>
+					<hr class="hr-dashed" />
 					<div class="blog-content-box">
 						<p class="abh text-black">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque beatae impedit, placeat commodi dolorem, in, voluptatum nesciunt quasi iusto labore, illo optio perspiciatis ad. Repellat assumenda dolorem commodi voluptatibus odit?</p>
 						</div>
@@ -101,15 +102,15 @@
 					    >
 					    	
 					  		<div class="imgborder">	
-					  			<img class="img-responsive" src="img/Green-Nature-Trees-l.jpg" alt="">
+					  			<img class="" src="img/Green-Nature-Trees-l.jpg" alt="">
 
 					  		</div>
 					  		<div class="imgborder">	
-					  			<img class="img-responsive" src="img/Green-Nature-Trees-l.jpg" alt="">
+					  			<img class="" src="img/Green-Nature-Trees-l.jpg" alt="">
 
 					  		</div>
 					  		<div class="imgborder">	
-					  			<img class="img-responsive" src="img/Green-Nature-Trees-l.jpg" alt="">
+					  			<img class="" src="img/Green-Nature-Trees-l.jpg" alt="">
 
 					  		</div>
 					  
@@ -401,55 +402,77 @@
 </div>
 <br>	
 
-<div class="container-flued bg-gray">
-<br>
+<div class="container-fluid bg-gray">
 	<div class="container">
 		<div class="row">
-		<h1 class="text-center font-light" id="page-2">Contacts</h1>
+			 <div class="col-md-12">
+			 		<h1 class="text-center font-light" id="page-2">Contact Us</h1>
+			 		<h3 class="text-center font-light">Always do your best. What you plant now, you will harvest later.</h3>
 			<div class="text-center  hidden-sm hidden-xs"><img  src="img/line.png" alt=""></div>
-			<h2>&nbsp;</h2>
-			<div class="col-md-4 text-center text-style br">
-				<span class="letter" data-icon="glyphicon glyphicon-earphone"></span>
-				<p>7210562014</p>
-			</div>
-			<div class="col-md-4 text-center text-style br">
-					<span class="letter" data-icon="glyphicon glyphicon-envelope"></span>
-				<p>aqilali381@gmail.com</p>
-			</div>
-			<div class="col-md-4 text-center">
+			<p>&nbsp;</p>
+			 </div>
+        <div class="col-md-6"> 
+         	<ul class="contacts-list">
+
+         		<li class="clearfix">
+         			<div class="r-box pull-left">
+         				<span class="letter" data-icon="glyphicon glyphicon-earphone"></span>
+         			</div>
+         			<div class="pull-left">
+         				<h4 class="font-light">Phone Number</h4>
+         				<h4 class="text-md">7210562014</h4>
+         				
+         			</div>
+         		</li>
+         		<li class="clearfix">
+         			<div class="r-box pull-left">
+         				<span class="letter" data-icon="glyphicon glyphicon-envelope"></span>
+         			</div>
+         			<div class="pull-left">
+         				<h4 class="font-light">Phone Number</h4>
+         				<h4 class="text-md">7210562014</h4>
+         				
+         			</div>
+         		</li>
+         		<li class="clearfix">
+         			<div class="r-box pull-left">
 					<span class="letter" data-icon="glyphicon glyphicon-map-marker"></span>
-				<p>
-					Lorem ipsum <br> dolor sit amet, 
-					PO Box 21132
-					Here Weare St, <br> Melbourne
-					Vivas 2355 Australia	
-				</p>
-			</div>
+         			</div>
+         			<div class="pull-left">
+         				<h4 class="font-light">Phone Number</h4>
+         				<h4 class="text-md">7210562014</h4>
+         				
+         			</div>
+         		</li>
+         	</ul>
+         </div>
+        <div class="col-md-6">  
+            <div class="clearfix">
+                  <h4 class="text-md fz20 mtext-center" style="padding-top: 6px;">Registration information</h4>
+                  <br>
+                </div>
+                <form class="form-modal"  action="send-mail.php">
+                  <div class="form-group por">      
+                    <input class="form-control material-input" type="text" required >
+                    <span class="bar"></span>
+                    <label class="material-label">Name</label>
+                  </div>
+                    <div class="form-group por">      
+                        <input class="form-control material-input" type="text" required >
+                        <span class="bar"></span>
+                      <label class="material-label">Name</label>
+                  </div>
+                    <div class="form-group por">      
+                    <textarea class="form-control material-input "  type="text" name="" id="" rows="3" required ></textarea>
+                        <span class="bar"></span>
+                      <label class="material-label textarea">Name</label>
+                  </div>
+              		<button class="modal-btn-round">Submit</button>
+                </form> 
+
+        </div>
+      
 		</div>
-	</div>
-	<h3>&nbsp;</h3>
-	<div class="container overflow-hidden">
-		<form action="send-mail.php" class="form-horizontal">
-			<div class="form-group">
-				<div class="col-md-6">
-					<input type="text" name="name" class="form-control" placeholder="Enter your name">
-				</div>
-				<div class="col-md-6">
-					<input type="text" name="email" class="form-control" placeholder="Enter your email">
-				</div>
-			</div>
-			<div class="form-group">
-				<div class="col-md-12">
-					<textarea name="" name="massege" class="form-control" rows="10" placeholder="Write, what you wan't say to us....."></textarea>
-				</div>
-			</div>
-			
-		<div class="text-right">
-			<button class="btn bgcolor-l-blue color-white">SEND &nbsp;<i class="glyphicon glyphicon-send"></i></button>
-		</div>
-		</form>
-	<h3>&nbsp;</h3>
 	</div>
 </div>
-
 <?php include "include/footer.php" ?>

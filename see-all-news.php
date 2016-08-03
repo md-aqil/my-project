@@ -34,13 +34,13 @@
 				<h2 class="font-light rn-title">Recent News</h2>
 					<ul class="blog-list">
 						<li><a href="">lorem ipsum doller</a>
-							<p class="font-light">July 26, 2016</p>
+							<p class="text-muted">July 26, 2016 &nbsp; | &nbsp; Mukhya of Ashraha</p>
 						</li>
 						<li><a href="">lorem ipsum doller</a>
-							<p class="font-light">July 26, 2016</p>
+							<p class="text-muted">July 26, 2016 &nbsp; | &nbsp; Mukhya of Ashraha</p>
 						</li>
 						<li><a href="">lorem ipsum doller</a>
-							<p class="font-light">July 26, 2016</p>
+							<p class="text-muted">July 26, 2016 &nbsp; | &nbsp; Mukhya of Ashraha</p>
 						</li>
 					</ul>
 				</div>

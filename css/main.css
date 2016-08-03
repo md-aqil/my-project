@@ -438,7 +438,7 @@ input:checked + label {
 .letter{
   display: inline-block;
   font-weight: 900;
-  font-size: 4em;
+  font-size: 40px;
   position: relative;
   color: #00B4F1;
   transform-style: preserve-3d;
@@ -730,6 +730,154 @@ background: none;
 }
 .main-img-box img {
 	background:;
+}
+/* contacts */
+.text-md {
+  font-family: Roboto;
+  font-weight: 400;
+}
+.text-normal {
+  font-weight: 300;
+  font-family: Roboto;
+
+}
+.form-control {
+  box-shadow: none;
+}
+.form-control:focus {
+  box-shadow: none;
+
+}
+
+.modal-btn-round {
+ background: #2185d0;
+    border: none;
+    font-size: 16px;
+    padding: 8px 52px;
+    border-radius: 30px;
+    color: #fff;
+    box-shadow: 0px 1px 2px 0 rgba(34, 36, 38, 0.57);
+    -webkit-transition: all .3s;
+    -webkit-outline: none;
+    -moz-outline: none;
+    outline: none;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.modal-btn-round:hover {
+
+  box-shadow: 0 6px 6px 0 rgba(0, 0, 0, 0.2);
+}
+.form-modal {
+  padding-right: 20px;
+}
+
+/* form starting stylings ------------------------------- */
+.por {
+  position: relative;
+}
+.material-input {
+  border: none;
+  border-bottom: 1px solid #2185d0;
+  box-shadow: none;
+  border-radius: 0;
+  background: transparent;
+}
+.material-label.textarea {
+	/* top:  22px; */
+
+}
+.hr-dashed {
+	margin-bottom: 0;
+    border-color: #9c9c9c;
+    border-style: dashed;
+}
+/* LABEL ======================================= */
+.material-label {
+     color: #868686;
+    font-size: 15px;
+    font-weight: normal;
+    position: absolute;
+    pointer-events: none;
+   left: -23px;
+    top: -10px;
+   transition: all 0.3s ease-in-out;
+}
+
+/* active state */
+.material-input:focus ~ .material-label, .material-input:valid ~ .material-label    {
+  /* top: -8px; */
+  font-size: 13px;
+  color: #333;
+   -webkit-transform: translateY(-17px);
+      transform: translateY(-17px);
+}
+
+/* BOTTOM BARS ================================= */
+.bar  { position:relative; display:block; width:100%; }
+.bar:before, .bar:after   {
+  content:'';
+  height:1px; 
+  width:0;
+  bottom:1px; 
+  position:absolute;
+  background:#2185d0; 
+  transition:0.2s ease all; 
+  -moz-transition:0.2s ease all; 
+  -webkit-transition:0.2s ease all;
+}
+.bar:before {
+  left:50%;
+}
+.bar:after {
+  right:50%; 
+}
+
+/* active state */
+.material-input:focus ~ .bar:before, .material-input:focus ~ .bar:after {
+  width:50%;
+}
+
+.fz20 {
+  font-size: 20px;
+}
+
+/* active state */
+.material-input:focus ~ .highlight {
+  -webkit-animation:inputHighlighter 0.3s ease;
+  -moz-animation:inputHighlighter 0.3s ease;
+  animation:inputHighlighter 0.3s ease;
+}
+
+/* ANIMATIONS ================ */
+@-webkit-keyframes inputHighlighter {
+  from { background:#2185d0; }
+  to  { width:0; background:transparent; }
+}
+@-moz-keyframes inputHighlighter {
+  from { background:#2185d0; }
+  to  { width:0; background:transparent; }
+}
+.contacts-list {
+	padding-left: 0;
+	list-style: none;
+}
+.contacts-list  li {
+	display: block;
+	padding: 20px 0;
+}
+.contacts-list  li .r-box {
+border: 1px solid #2185d0;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 94px;
+    padding: 0;
+    margin: 0;
+    margin-right: 12px;
+    position: relative;
+
 }
 
 @media (max-width: 767px) {
