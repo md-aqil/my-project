@@ -1,6 +1,34 @@
 <?php include "include/header.php" ?>
-<div id="page-down"></div>
-
+<div class="container-fluid bg-gray">
+<p>&nbsp;</p>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<h1 class="title-header">All News Around Darbhanga</h1>
+				<h3 class="text-center font-light">Always do your best. What you plant now, you will harvest later.</h3>
+				<h1>&nbsp;</h1>
+			</div>
+			<?php for ($i=0; $i < 4; $i++) {?>
+			<div class="col-md-6 mt50">
+				<div class="row">
+					<div class="col-md-5">
+					     <div class="news-photos"></div>
+					      <a href="see-all-news.php" class="viewallbtn"> View all</a>
+					</div>
+					<div class="col-md-7">
+					<h3 class="news-header"><a href="see-all-news.php">Lorem ipsum dolor sit amet. sit ammet couselustion </a></h3>
+					<p class="text-muted">July 26, 2016 &nbsp; | &nbsp; By: Author</p>
+					<div class="blog-content-box">
+						<p class="abh text-black">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque beatae impedit, placeat commodi dolorem, in, voluptatum nesciunt quasi iusto labore, illo optio perspiciatis ad. Repellat assumenda dolorem commodi voluptatibus odit?</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		<?php } ?>
+		</div>
+	</div>
+	<h1>&nbsp;</h1>
+</div>
 	<div class="container">
 		<div class="row">
 			<h1>&nbsp;</h1>
@@ -13,18 +41,9 @@
 						<h4 class="head-name">Khurshid Anwar</h4>
 						<p class="text-muted">July 26, 2016 &nbsp; | &nbsp; Mukhya of Ashraha</p>
 						<div class="head-poaple-img img-name"></div>
-				  		<div class="blog-content-box">
-						  		 <p class="abh">
-								As a leader, I am tough on myself and I raise the standard for everybody; however, I am very caring because I want people to excel at what they are doing so that they can aspire to be me in the future."
-								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-								tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-								quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-								consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-								cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-								proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-								</p>
-							</div>
-				  		<button class="viewallbtn">View all</button>
+						<p class="abh">
+							As a leader, I am tough on myself and I raise the standard for everybody; however, I am very caring because I want people to excel at what they are doing so that they can aspire to be me in the future."
+							</p>
 					</div>
 				</div>
 				<div class="col-md-4">
@@ -32,18 +51,9 @@
 						<h4 class="head-name">Khurshid Anwar</h4>
 						<p class="text-muted">July 26, 2016 &nbsp; | &nbsp; Mukhya of Ashraha</p>
 							<div class="head-poaple-img img-name"></div>
-					  		<div class="blog-content-box">
-						  		 <p class="abh">
+							<p class="abh">
 								As a leader, I am tough on myself and I raise the standard for everybody; however, I am very caring because I want people to excel at what they are doing so that they can aspire to be me in the future."
-								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-								tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-								quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-								consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-								cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-								proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 								</p>
-							</div>
-				  		<button class="viewallbtn">View all</button>
 
 					</div>
 				</div>
@@ -52,18 +62,9 @@
 						<h4 class="head-name">Khurshid Anwar</h4>
 						<p class="text-muted">July 26, 2016 &nbsp; | &nbsp; Mukhya of Ashraha</p>
 							<div class="head-poaple-img img-name"></div>
-							<div class="blog-content-box">
-						  		 <p class="abh">
+							<p class="abh">
 								As a leader, I am tough on myself and I raise the standard for everybody; however, I am very caring because I want people to excel at what they are doing so that they can aspire to be me in the future."
-								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-								tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-								quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-								consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-								cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-								proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 								</p>
-							</div>
-				  		<a href="" class="viewallbtn">View all</a>
 
 					</div>
 				</div>

@@ -64,8 +64,8 @@
 			<div class="header animated">
 				<div class="container">
 					<ul class="nav-ul">
-						<li><a href="index.php" class="a">Home</a></li>
-						<li><a href="see-all-news.php" class="a">Blog</a></li>
+						<li><a href="index.php">Home</a></li>
+						<li><a href="see-all-news.php">Blog</a></li>
 						<li><a href="">home</a></li>
 						<li><a href="">home</a></li>
 					</ul>
@@ -79,8 +79,8 @@
 		<div class="mobile-inner-header-icon mobile-inner-header-icon-out">
 		<span></span><span></span></div>
 		<div class="mobile-inner-nav">
-			<li><a href="index.php" class="a">Home</a></li>
-			<li><a href="see-all-news.php" class="a">Blog</a></li>
+			<a href="index.php">Home</a>
+			<a href="see-all-news.php">Blog</a>
 			<a href="#">Portfolio</a>
 			<a href="#">Blog</a>
 			<a href="#">About</a>

@@ -34,10 +34,12 @@ body {
 .main-img-box .slide-it {
 	width: 100%;
   	height: 500px;
+
 }
 .slide-it.img1 {
 	background: url('../img/Green-Nature-Trees-l.jpg') no-repeat center;
   	background-size: cover;
+  	background-attachment: fixed;
 
 }
 .main-img-box .overlay {
@@ -568,6 +570,7 @@ label[for*='4']::before {
 	  	padding-right: 4px !important;
 
   }
+
 }
 
 .down-angle a{
@@ -658,13 +661,20 @@ label[for*='4']::before {
 background: none;
     box-shadow: none;
     border: none;
-    border: 2px solid #6570b0;
+    border: 1px solid #6570b0;
     padding: 8px 60px;
     border-radius: 2px;
     display: inline-block;
 	color: #646fb0;
 	margin-top: 20px;
 	margin-bottom: 20px;
+	/* display: block; */
+}
+.mt15 {
+	margin-top: 15px;
+}
+.text-black {
+	color: #1f1f1f !important;
 }
 
 .viewallbtn:hover {
@@ -674,7 +684,7 @@ background: none;
 /*blog*/
 .blog-content-box {
 	width: 100%;
-	height: 160px;
+	height: 210px;
 	overflow: hidden;
 }
 .blog-list {
@@ -694,4 +704,37 @@ background: none;
 	border-bottom: 1px solid #a5a5a5;
     margin-bottom: 20px;
     padding-bottom: 20px;
+}
+.width100 {
+	width: 100%;
+}
+.head-name a{
+    font-weight: 700;
+    color: #646FB0;
+    font-size: 20px;
+}
+.news-photos {
+	background: url('../img/Green-Nature-Trees-l.jpg') center no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 173px;
+}
+.news-header {
+	margin-top: 0;
+}
+.news-header a {
+	color: #646FB0;
+}
+.mt50 {
+	margin-top: 50px;
+}
+.main-img-box img {
+	background:;
+}
+
+@media (max-width: 767px) {
+  .main-title {
+  	margin-top: 161px ;
+  	font-size: 48px;
+  }
 }
