@@ -74,51 +74,12 @@
 	</div><!-- end container -->
 
 	<h1>&nbsp;</h1>
-	<div class="container-fluid bg-gray ">
-
-			<div class="container ">
-			<!-- <p>	&nbsp;</p> -->
-			<div class="slider-container por">
-			
-			<h2 class="title-header text-center gray-tile">Services Provided</h2>
-
-				<span class="prev prevControl">
-				<i class="glyphicon glyphicon-menu-left"></i>
-				</span>
-				<span class="next nextControl">
-				<i class="glyphicon glyphicon-menu-left"></i>
-				</span>
-
-
-					<div class="cycle-slideshow" 
-					    data-cycle-fx="carousel"
-					    data-cycle-carousel-visible="5"
-					    data-cycle-carousel-fluid="true"
-					    data-cycle-timeout="10000"
-					    data-cycle-prev=".prevControl"
-	    				data-cycle-next=".nextControl"
-	    				data-cycle-slides=".imgborder"
-	    				
-					    >
-					    	
-					  		<div class="imgborder">	
-					  			<img class="" src="img/Green-Nature-Trees-l.jpg" alt="">
-
-					  		</div>
-					  		<div class="imgborder">	
-					  			<img class="" src="img/Green-Nature-Trees-l.jpg" alt="">
-
-					  		</div>
-					  		<div class="imgborder">	
-					  			<img class="" src="img/Green-Nature-Trees-l.jpg" alt="">
-
-					  		</div>
-					  
-					</div>
-				</div>
+	<div class="container-fluid">
+		<div class="container">
+			<?php include "include/slider.php" ?>
 		</div>
-
 	</div>
+
 <div class="container overflow-hidden">
 	<h3>&nbsp;</h3>
 	<h2 class="title-header text-center">Services Provided</h2>

@@ -36,6 +36,8 @@
 			<i class="glyphicon glyphicon-menu-right"></i>
 		</span>
 			<div class="slide-it img1"></div>
+			<div class="slide-it img2"></div>
+			<div class="slide-it img1"></div>
 			<div class="slide-it img1"></div>
 			<span class="pager"></span>
 		</div>
@@ -56,7 +58,8 @@
 			<h1 class="down-angle"><a href="#page-down" class="a"><i class="icon-angle-down"></i></a></h1>
 		</div>
 	</div>
-</div>
+</div> 
+
 <!-- there are banner END-->
 
 <div class="container-fluid res-header-desktop hidden-sm hidden-xs">

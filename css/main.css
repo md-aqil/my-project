@@ -42,6 +42,9 @@ body {
   	background-attachment: fixed;
 
 }
+.title-header.text-left {
+	text-align: left;
+}
 .main-img-box .overlay {
 	width: 100%;
 	height: 100%;
@@ -80,7 +83,7 @@ font-weight: 500;
 	min-height: 65px;
 	width: 100%;
 	border-bottom: 1px solid #ddd;
-	background: #333;
+	background: #fff;
     border-bottom: 1px solid #eeeeee;
     
 }
@@ -91,7 +94,7 @@ font-weight: 500;
 	left: 0;
     box-shadow: 0 0.5px 7px rgba(0, 0, 0, 0.1);
     z-index: 200;
-    background: rgba(0, 0, 0, 0.5);
+    /* background: rgba(255, 255, 255, 0.5); */
 }
 .header .nav-ul {
 	list-style: none;
@@ -108,19 +111,24 @@ font-weight: 500;
 	margin:  0 10px;
 }
 .header .nav-ul li:hover {
-	background-color: rgba(255,255,255,0.2);
+	background-color: #3797dd;
 
+
+}
+.header .nav-ul li:hover  {
+	color: #fff;
+	background-color: #3797dd;
+	
+}
+.header .nav-ul li a {
+	color: #333;
+	font-weight: 400;
 
 }
 .header .nav-ul li:hover a {
 	color: #fff;
 	text-decoration: none;
-
-}
-.header .nav-ul li a {
-	color: #fff;
-	font-weight: 400;
-
+	background: #3797dd;
 }
 
 .aboutus-title {
@@ -404,7 +412,7 @@ input:checked + label {
 	position: absolute;
     bottom: 20px;
     z-index: 300;
-    left: 48%;
+    left: 46%;
 
 }
 .pager >span{
@@ -508,12 +516,13 @@ input:checked + label {
 	font-weight: 300;
 	text-align: center;
 	color: #01B0AE;
+	color: #3797dd;
 }
 .down-angle {
 	/* position: absolute; */
 	bottom: 0;
 	text-align: center;
-	margin-top: 300px;
+	margin-top: 0px;
 	color: #fff;
 	-webkit-animation: anim-this 2s ease-in infinite;
 }
@@ -879,7 +888,135 @@ border: 1px solid #2185d0;
     position: relative;
 
 }
+/* extra btn slider style */
+.carousel-inner .active.left { left: -25%; }
+.carousel-inner .next        { left:  25%; }
+.carousel-inner .prev		 { left: -25%; }
+.carousel-control 			 { width:  4%; }
+.carousel-control.left,.carousel-control.right {margin-left:15px;background-image:none;}
+ .img-card {
+      background: #fff;
+      border:  1px solid #ddd;
+      cursor: pointer;
+    }
+    .img-hover-box {
+      position: relative;
+      overflow: hidden;
+    }
+    .this-overlay, .this-overlay2 {
+        width: 80px;
+        height: 80px;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        -webkit-transition: all .5s ease-in-out;
+        -moz-transition: all .5s ease-in-out;
+        -webkit-transition: all .5s ease-in-out;
+        background: #3797dd;
+        -webkit-clip-path: polygon(100% 0, 0 100%, 100% 100%);
+        -moz-clip-path: polygon(100% 0, 0 100%, 100% 100%);
+      clip-path: polygon(100% 0, 0 100%, 100% 100%);
+}
+ .this-overlay2 {
+  background: #fff;
+    bottom: -80px;
+  right: -80px;
+ }
 
+ .big-icon{
+    width: 49px;
+    height: 49px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    text-align: center;
+    z-index: 20;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.3);
+    background: #fff;
+    color: #3797dd;
+    font-size: 34px;
+}
+.m0 {
+  margin:  0;
+}
+.cardname {
+  margin-bottom: 0;
+    font-size: 16px;
+    letter-spacing: 3px;
+}
+.disc {
+    margin: 17px 0;
+    text-align: center;
+}
+.overlay-text {
+  position: absolute;
+    top: 0;
+    padding: 25px;
+    color: #fff;
+    font-size: 17px;
+    font-family: Lato;
+    opacity: 0;
+    -webkit-transition:  all 1s ease-in-out;
+}
+ .card-image {
+  background: url('../img/Green-Nature-Trees-l.jpg') center no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 300px;
+ }
+/* hover */
+.img-card:hover {
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.3);
+}
+   .img-card:hover .this-overlay{
+  width: 200%;
+    height: 200%;
+        background: rgba(55, 151, 221, 0.83);
+}
+ .img-card:hover .this-overlay2 {
+    bottom: 0;
+  right: 0;
+ }
+ .img-card:hover .overlay-text {
+    opacity: 1;
+ }
+ hr.styled {
+  position: relative;
+ }
+ hr.styled::before {
+  content: "";
+  width: 150px;
+  height: 3px;
+  background: #3797dd;
+  position: absolute;
+  top: -2px;
+ }
+ .por {
+  position: relative;
+ }
+ .bt-sliderbtn {
+ 	margin-top: 24px;
+ }
+ .bt-sliderbtn > a:first-child {
+  border-right-width: 0;
+}
+.bt-sliderbtn > a {
+  float: left;
+padding: 10px 15px;
+-webkit-transition:  all .3s;
+-moz-transition:  all .3s;
+border:  1px solid #3797dd;
+color: #fff;
+background: #3797dd;
+}
+.bt-sliderbtn > a:hover {
+background: #fff;
+color: #3797dd;
+
+}
 @media (max-width: 767px) {
   .main-title {
   	margin-top: 161px ;
