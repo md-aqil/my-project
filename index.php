@@ -74,8 +74,8 @@
 	</div><!-- end container -->
 
 	<h1>&nbsp;</h1>
-	<div class="container-fluid bg-gray">
-		<div class="container pr">
+	<div class="container-fluid">
+		<div class="container">
 			<?php include "include/slider.php" ?>
 		</div>
 	</div>
