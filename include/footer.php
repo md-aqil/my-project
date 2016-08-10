@@ -13,6 +13,7 @@
 <script src="js/wow.js"></script>
 <script src="js/malsap.js"></script>
 <script src="js/carousel.js"></script>
+<script src="js/bootstrap.js"></script>
 
 <script>
 	$(document).ready(function() {
@@ -90,7 +91,28 @@ $(".mobile-inner-nav a").each(function( index ) {
   });
 });
 
+// multiple images slider
+$('#myCarousel').carousel({
+  interval: 4000
+})
 
+$('.carousel .item').each(function(){
+  var next = $(this).next();
+  if (!next.length) {
+    next = $(this).siblings(':first');
+  }
+  next.children(':first-child').clone().appendTo($(this));
+  
+  for (var i=0;i<2;i++) {
+    next=next.next();
+    if (!next.length) {
+    	next = $(this).siblings(':first');
+  	}
+    
+    next.children(':first-child').clone().appendTo($(this));
+  }
+});
 </script>
+
 </body>
 </html>

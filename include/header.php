@@ -37,6 +37,8 @@
 		</span>
 			<div class="slide-it img1"></div>
 			<div class="slide-it img1"></div>
+			<div class="slide-it img1"></div>
+			<div class="slide-it img1"></div>
 			<span class="pager"></span>
 		</div>
 		<div class="overlay">
