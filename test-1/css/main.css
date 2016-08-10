@@ -1,4 +1,4 @@
- @import url(https://fonts.googleapis.com/css?family=Lato:400,700,300,900,100);
+/* @import url(https://fonts.googleapis.com/css?family=Lato:400,700,300,900,100); */
 .font-thin {font-weight: 100;}
 .font-light {font-weight: 300;}
 .font-bold{font-weight: 700;}
@@ -10,21 +10,14 @@
 .font-lato{
 	font-family: 'Lato', sans-serif;
 }
-.color-blue {
-	color: #01B0AE;
-}
 body {
 	font-family: 'Lato', sans-serif;
-	font-size: 16px;
 }
 .color-white {
 	color: #fff;
 }
-.text-d-blue {
-	color: #646FB0;
-}
 .bg-gray {
-	background: #f1f1f1;
+	background: #F5F5FA;
 }
 .main-img-box {
 	max-width: 100%;
@@ -34,12 +27,10 @@ body {
 .main-img-box .slide-it {
 	width: 100%;
   	height: 500px;
-
 }
 .slide-it.img1 {
 	background: url('../img/Green-Nature-Trees-l.jpg') no-repeat center;
   	background-size: cover;
-  	background-attachment: fixed;
 
 }
 .main-img-box .overlay {
@@ -61,12 +52,10 @@ body {
 	margin-top: 8%;
 }
 .anim-text {
-	font-size: 1.5em;
-    color: #fff;
-    font-weight: 300;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    text-align: center;
+	font-weight: 100;
+	font-size: 100px;
+	color: #fff;
+	text-align: center;
 }
 .we {
 font-weight: 500;
@@ -158,7 +147,9 @@ font-weight: 500;
     text-transform: capitalize;
     margin-bottom: 6px;
 }
-
+.about-box {
+	height: 400px;
+}
 .pointer-box {
 	min-height: 200px;
 }
@@ -438,7 +429,7 @@ input:checked + label {
 .letter{
   display: inline-block;
   font-weight: 900;
-  font-size: 40px;
+  font-size: 4em;
   position: relative;
   color: #00B4F1;
   transform-style: preserve-3d;
@@ -507,7 +498,6 @@ input:checked + label {
 	font-family: 'Lato', sans-serif;
 	font-weight: 300;
 	text-align: center;
-	color: #01B0AE;
 }
 .down-angle {
 	/* position: absolute; */
@@ -570,7 +560,6 @@ label[for*='4']::before {
 	  	padding-right: 4px !important;
 
   }
-
 }
 
 .down-angle a{
@@ -588,301 +577,4 @@ label[for*='4']::before {
 }
 .text-shadow {
 	text-shadow: rgba(0, 0, 0, 0.298039) 0px 5px 0px;
-}
-.text-normal {
-	font-family: Roboto;
-	font-weight: 300;
-}
-.main-title {
-	text-align: center;
-    margin-top: 185px;
-    color: #fff;
-    font-size: 80px;
-}
-.head-poaple-img {
-	height: 400px;
-	width: 100%;
-}
-.img-name {
-	background: url(../img/asraha1.jpg) no-repeat center;
-	background-size: cover;
-}
-.head-name {
-	font-weight: 700;
-	color: #646FB0;
-	font-size: 20px;
-}
-.abh {
-	font-size: 17px;
-	margin-top: 20px;
-	font-family: inherit;
-	color: #4b4d5f;
-	line-height: 27px;
-	margin-bottom: 20px;
-}
-.head-container {
-	width: 90%;
-	margin: 30px auto;
-}
-.slider-container img{
-	width: 100%;
-	border-bottom: 	4px solid #01B0AE;
-}
-.slider-container {
-	padding-top: 45px;
-	padding-bottom: 55px;
-}
-.imgborder {
-	margin: 0 5px;
-}
-.prevControl, .nextControl {
-	position: absolute;
-	top: 50%;
-}
-.por {
-	position: relative;
-
-}
-.nextControl {
-	right: 0px;
-}
-.prevControl {
-		left: 	5px;
-}
-.gray-tile {
-	margin-top: 0;
-    margin-bottom: 40px;
-}
-.imgborder {
-	width: 300px;
-
-}
-.viewallbtn {
-background: none;
-    box-shadow: none;
-    border: none;
-    border: 1px solid #6570b0;
-    padding: 8px 60px;
-    border-radius: 2px;
-    display: inline-block;
-	color: #646fb0;
-	margin-top: 20px;
-	margin-bottom: 20px;
-	/* display: block; */
-}
-.mt15 {
-	margin-top: 15px;
-}
-.text-black {
-	color: #1f1f1f !important;
-}
-
-.viewallbtn:hover {
-	background: #646fb0;
-	color: #fff;
-}
-/*blog*/
-.blog-content-box {
-	width: 100%;
-	height: 210px;
-	overflow: hidden;
-}
-.blog-list {
-	padding: 0;
-	list-style: none;
-}
-.blog-list li {
-	padding-bottom: 20px;
-}
-.blog-list li a {
-	 display: block;
-    font-weight: 700;
-    color:#646fb0;
-    font-size: 19px;
-}
-.rn-title {
-	border-bottom: 1px solid #a5a5a5;
-    margin-bottom: 20px;
-    padding-bottom: 20px;
-}
-.width100 {
-	width: 100%;
-}
-.head-name a{
-    font-weight: 700;
-    color: #646FB0;
-    font-size: 20px;
-}
-.news-photos {
-	background: url('../img/Green-Nature-Trees-l.jpg') center no-repeat;
-	background-size: cover;
-	width: 100%;
-	height: 173px;
-}
-.news-header {
-	margin-top: 0;
-}
-.news-header a {
-	color: #646FB0;
-}
-.mt50 {
-	margin-top: 50px;
-}
-.main-img-box img {
-	background:;
-}
-/* contacts */
-.text-md {
-  font-family: Roboto;
-  font-weight: 400;
-}
-.text-normal {
-  font-weight: 300;
-  font-family: Roboto;
-
-}
-.form-control {
-  box-shadow: none;
-}
-.form-control:focus {
-  box-shadow: none;
-
-}
-
-.modal-btn-round {
- background: #2185d0;
-    border: none;
-    font-size: 16px;
-    padding: 8px 52px;
-    border-radius: 30px;
-    color: #fff;
-    box-shadow: 0px 1px 2px 0 rgba(34, 36, 38, 0.57);
-    -webkit-transition: all .3s;
-    -webkit-outline: none;
-    -moz-outline: none;
-    outline: none;
-    margin-top: 10px;
-    margin-bottom: 15px;
-}
-.modal-btn-round:hover {
-
-  box-shadow: 0 6px 6px 0 rgba(0, 0, 0, 0.2);
-}
-.form-modal {
-  padding-right: 20px;
-}
-
-/* form starting stylings ------------------------------- */
-.por {
-  position: relative;
-}
-.material-input {
-  border: none;
-  border-bottom: 1px solid #2185d0;
-  box-shadow: none;
-  border-radius: 0;
-  background: transparent;
-}
-.material-label.textarea {
-	/* top:  22px; */
-
-}
-.hr-dashed {
-	margin-bottom: 0;
-    border-color: #9c9c9c;
-    border-style: dashed;
-}
-/* LABEL ======================================= */
-.material-label {
-     color: #868686;
-    font-size: 15px;
-    font-weight: normal;
-    position: absolute;
-    pointer-events: none;
-   left: -23px;
-    top: -10px;
-   transition: all 0.3s ease-in-out;
-}
-
-/* active state */
-.material-input:focus ~ .material-label, .material-input:valid ~ .material-label    {
-  /* top: -8px; */
-  font-size: 13px;
-  color: #333;
-   -webkit-transform: translateY(-17px);
-      transform: translateY(-17px);
-}
-
-/* BOTTOM BARS ================================= */
-.bar  { position:relative; display:block; width:100%; }
-.bar:before, .bar:after   {
-  content:'';
-  height:1px; 
-  width:0;
-  bottom:1px; 
-  position:absolute;
-  background:#2185d0; 
-  transition:0.2s ease all; 
-  -moz-transition:0.2s ease all; 
-  -webkit-transition:0.2s ease all;
-}
-.bar:before {
-  left:50%;
-}
-.bar:after {
-  right:50%; 
-}
-
-/* active state */
-.material-input:focus ~ .bar:before, .material-input:focus ~ .bar:after {
-  width:50%;
-}
-
-.fz20 {
-  font-size: 20px;
-}
-
-/* active state */
-.material-input:focus ~ .highlight {
-  -webkit-animation:inputHighlighter 0.3s ease;
-  -moz-animation:inputHighlighter 0.3s ease;
-  animation:inputHighlighter 0.3s ease;
-}
-
-/* ANIMATIONS ================ */
-@-webkit-keyframes inputHighlighter {
-  from { background:#2185d0; }
-  to  { width:0; background:transparent; }
-}
-@-moz-keyframes inputHighlighter {
-  from { background:#2185d0; }
-  to  { width:0; background:transparent; }
-}
-.contacts-list {
-	padding-left: 0;
-	list-style: none;
-}
-.contacts-list  li {
-	display: block;
-	padding: 20px 0;
-}
-.contacts-list  li .r-box {
-border: 1px solid #2185d0;
-    height: 70px;
-    width: 70px;
-    border-radius: 50%;
-    text-align: center;
-    line-height: 94px;
-    padding: 0;
-    margin: 0;
-    margin-right: 12px;
-    position: relative;
-
-}
-
-@media (max-width: 767px) {
-  .main-title {
-  	margin-top: 161px ;
-  	font-size: 48px;
-  }
 }

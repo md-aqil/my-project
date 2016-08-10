@@ -16,7 +16,7 @@
 						<p class="text-muted">July 26, 2016 &nbsp; | &nbsp; Mukhya of Ashraha</p>
 						<div class="head-poaple-img img-name"></div>
 				  		<div class="blog-content-box">
-						  		 <p class="abh">
+						  		 <p class="abh text-black">
 								As a leader, I am tough on myself and I raise the standard for everybody; however, I am very caring because I want people to excel at what they are doing so that they can aspire to be me in the future."
 								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 								tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -34,13 +34,13 @@
 				<h2 class="font-light rn-title">Recent News</h2>
 					<ul class="blog-list">
 						<li><a href="">lorem ipsum doller</a>
-							<p class="font-light">July 26, 2016</p>
+							<p class="text-muted">July 26, 2016 &nbsp; | &nbsp; Mukhya of Ashraha</p>
 						</li>
 						<li><a href="">lorem ipsum doller</a>
-							<p class="font-light">July 26, 2016</p>
+							<p class="text-muted">July 26, 2016 &nbsp; | &nbsp; Mukhya of Ashraha</p>
 						</li>
 						<li><a href="">lorem ipsum doller</a>
-							<p class="font-light">July 26, 2016</p>
+							<p class="text-muted">July 26, 2016 &nbsp; | &nbsp; Mukhya of Ashraha</p>
 						</li>
 					</ul>
 				</div>

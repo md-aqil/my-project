@@ -79,8 +79,10 @@
 		<div class="mobile-inner-header-icon mobile-inner-header-icon-out">
 		<span></span><span></span></div>
 		<div class="mobile-inner-nav">
+
 			<li><a href="index.php">Home</a></li>
 			<li><a href="see-all-news.php">Blog</a></li>
+
 			<a href="#">Portfolio</a>
 			<a href="#">Blog</a>
 			<a href="#">About</a>
