@@ -5,8 +5,8 @@
   </div>
   <div class="col-md-4">
     <div class="bt-sliderbtn pull-right clearfix">
-      <a class="btnhover-ripple" href="#myCarousel" data-slide="prev"><i class="glyphicon glyphicon-chevron-left"></i><span></span> </a>
-      <a class="btnhover-ripple" href="#myCarousel" data-slide="next"><i class="glyphicon glyphicon-chevron-right"></i><span></span></a>
+      <a class="btnhover-ripple" href="#myCarousel" data-slide="prev"><i class="glyphicon glyphicon-menu-left"></i><span></span> </a>
+      <a class="btnhover-ripple" href="#myCarousel" data-slide="next"><i class="glyphicon glyphicon-menu-right"></i><span></span></a>
   </div> 
   </div>
 </div>
@@ -23,7 +23,17 @@
 	              <div class="this-overlay"></div>
 	              <div class="this-overlay2"></div>
 	              <div class="big-icon">+</div>
-	              <div class="overlay-text">
+	             <div class="overlay-text font-light">
+					<ul class="list-unstyled">
+						<li class="list-item"><a href="tel:7210562014"> <span class="curcle-call"><i class="glyphicon glyphicon-earphone">	</i></span> 7210562014</a>
+						</li>
+						<li class="list-item"><a href=""><span class="curcle-call"><i class="glyphicon glyphicon-envelope"></i></span> 7210562014</a></li>
+					</ul>
+					<ul class="list-inline social-icon-sprite text-center">
+						<li class="fb-icon"></li>
+						<li class="gp-icon"></li>
+						<li class="link-icon"></li>
+					</ul>
 	              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem asperiores, ut. Corporis quidem vel est perspiciatis, at commodi enim adipisci deleniti nihil veritatis obcaecati optio fugiat fugit voluptates molestias repudiandae?
 	              </div>
 	            </div>
@@ -42,7 +52,17 @@
 	              <div class="this-overlay"></div>
 	              <div class="this-overlay2"></div>
 	              <div class="big-icon">+</div>
-	              <div class="overlay-text">
+	              <div class="overlay-text font-light">
+					<ul class="list-unstyled">
+						<li class="list-item"><a href="tel:7210562014"> <span class="curcle-call"><i class="glyphicon glyphicon-earphone"></i></span> 7210562014</a>
+						</li>
+						<li class="list-item"><a href=""><span class="curcle-call"><i class="glyphicon glyphicon-envelope"></i></span> 7210562014</a></li>
+					</ul>
+					<ul class="list-inline social-icon-sprite text-center">
+						<li class="fb-icon"></li>
+						<li class="gp-icon"></li>
+						<li class="link-icon"></li>
+					</ul>
 	              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem asperiores, ut. Corporis quidem vel est perspiciatis, at commodi enim adipisci deleniti nihil veritatis obcaecati optio fugiat fugit voluptates molestias repudiandae?
 	              </div>
 	            </div>

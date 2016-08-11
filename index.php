@@ -1,33 +1,8 @@
+<?php include "include/front-banner.php" ?>
 <?php include "include/header.php" ?>
 <div class="container-fluid bg-gray">
 <p>&nbsp;</p>
-	<div class="container">
-		<div class="row">
-			<div class="col-md-12">
-				<h1 class="title-header">All News Around Darbhanga</h1>
-				<h3 class="text-center font-light">Always do your best. What you plant now, you will harvest later.</h3>
-				<h1>&nbsp;</h1>
-			</div>
-			<?php for ($i=0; $i < 4; $i++) {?>
-			<div class="col-md-6 mt50">
-				<div class="row">
-					<div class="col-md-5">
-					     <div class="news-photos"></div>
-					      <a href="see-all-news.php" class="viewallbtn"> View all</a>
-					</div>
-					<div class="col-md-7">
-					<h3 class="news-header"><a href="see-all-news.php">Lorem ipsum dolor sit amet. sit ammet couselustion </a></h3>
-					<p class="text-muted">July 26, 2016 &nbsp; | &nbsp; By: Author</p>
-					<hr class="hr-dashed" />
-					<div class="blog-content-box">
-						<p class="abh text-black">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque beatae impedit, placeat commodi dolorem, in, voluptatum nesciunt quasi iusto labore, illo optio perspiciatis ad. Repellat assumenda dolorem commodi voluptatibus odit?</p>
-						</div>
-					</div>
-				</div>
-			</div>
-		<?php } ?>
-		</div>
-	</div>
+	<?php include "include/blog-section.php" ?>
 	<h1>&nbsp;</h1>
 </div>
 	<div class="container">
@@ -375,7 +350,7 @@
         <div class="col-md-6"> 
          	<ul class="contacts-list">
 
-         		<li class="clearfix">
+         		<li class="clearfix wow bounceInLeft" data-wow-delay=".2s">
          			<div class="r-box pull-left">
          				<span class="letter" data-icon="glyphicon glyphicon-earphone"></span>
          			</div>
@@ -385,7 +360,7 @@
          				
          			</div>
          		</li>
-         		<li class="clearfix">
+         		<li class="clearfix wow bounceInLeft" data-wow-delay=".5s">
          			<div class="r-box pull-left">
          				<span class="letter" data-icon="glyphicon glyphicon-envelope"></span>
          			</div>
@@ -395,7 +370,7 @@
          				
          			</div>
          		</li>
-         		<li class="clearfix">
+         		<li class="clearfix wow bounceInLeft" data-wow-delay=".8s">
          			<div class="r-box pull-left">
 					<span class="letter" data-icon="glyphicon glyphicon-map-marker"></span>
          			</div>
@@ -413,17 +388,17 @@
                   <br>
                 </div>
                 <form class="form-modal"  action="send-mail.php">
-                  <div class="form-group por">      
+                  <div class="form-group por wow fadeInLeftBig" data-wow-delay=".3s">      
                     <input class="form-control material-input" type="text" required >
                     <span class="bar"></span>
                     <label class="material-label">Name</label>
                   </div>
-                    <div class="form-group por">      
+                    <div class="form-group por fadeInLeftBig wow" data-wow-delay=".6s">      
                         <input class="form-control material-input" type="text" required >
                         <span class="bar"></span>
                       <label class="material-label">Name</label>
                   </div>
-                    <div class="form-group por">      
+                    <div class="form-group por fadeInLeftBig" data-wow-delay=".9s">      
                     <textarea class="form-control material-input "  type="text" name="" id="" rows="3" required ></textarea>
                         <span class="bar"></span>
                       <label class="material-label textarea">Name</label>

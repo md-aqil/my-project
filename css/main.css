@@ -7,6 +7,9 @@
 .overflow-hidden {
 	overflow: hidden;
 }
+.width100px {
+  width: 100px;
+}
 .font-lato{
 	font-family: 'Lato', sans-serif;
 }
@@ -101,6 +104,7 @@ font-weight: 500;
 	float: right;
 	margin: 0;
 	padding: 0;
+  height: 64px;
 }
 .header .nav-ul li{
 	height: 100%;
@@ -112,7 +116,6 @@ font-weight: 500;
 }
 .header .nav-ul li:hover {
 	background-color: #3797dd;
-
 
 }
 .header .nav-ul li:hover  {
@@ -131,68 +134,12 @@ font-weight: 500;
 	background: #3797dd;
 }
 
-.aboutus-title {
-	text-align: center;
-	margin: 50px 0;
-}
 .article {
 	font-size: 20px;
 	font-weight: 300;
 }
 /* progress-bar */
-.skillbar {
-    background: #f5f5fa;
-}
-.skillbar {
-    width: 100%;
-    height: 3px;
-    border-radius: 0 2px 2px 0;
-    overflow: hidden;
-}
-.skillbar-bar {
-    background: #2BE029;
-    box-shadow: 2px 0 5px 2px rgba(161, 130, 210, 0.3);
-}
-.skillbar-bar {
-    height: 3px;
-    width: 0;
-    border-radius: 0 2px 2px 0;
-}
-.skillbar-title {
-    font-size: 15px;
-    font-weight: 300;
-    color: #000;
-    line-height: 1.7;
-    text-transform: capitalize;
-    margin-bottom: 6px;
-}
 
-.pointer-box {
-	min-height: 200px;
-}
-.rating-p {
-	font-size: 4em;
-	text-align: center;
-	line-height: 200px;
-	font-weight: 100;
-}
-.service-box {
-	min-height: 500px;
-}
-.service-title {
-	text-align: center;
-	margin-top: 100px;
-	margin-bottom: 80px;
-}
-.service-box p {
-	font-size: 15px;
-}
-.service-icon {
-	font-size: 50px;
-}
-.service-box .col-md-4 {
-	height: 280px;
-}
 /* tabs */
 .main-tab-box {
  max-width: 100%;
@@ -408,11 +355,13 @@ input:checked + label {
 	left: 0;
 }
 .pager{
-	display: block;
-	position: absolute;
+	    display: block;
     bottom: 20px;
     z-index: 300;
-    left: 46%;
+    width: 112px;
+    margin: 0 auto;
+    position: relative;
+    margin-top: -60px;
 
 }
 .pager >span{
@@ -881,11 +830,11 @@ border: 1px solid #2185d0;
     width: 70px;
     border-radius: 50%;
     text-align: center;
-    line-height: 94px;
     padding: 0;
     margin: 0;
     margin-right: 12px;
     position: relative;
+    padding-top: 15px;
 
 }
 /* extra btn slider style */
@@ -909,9 +858,9 @@ border: 1px solid #2185d0;
         position: absolute;
         bottom: 0;
         right: 0;
-        -webkit-transition: all .5s ease-in-out;
-        -moz-transition: all .5s ease-in-out;
-        -webkit-transition: all .5s ease-in-out;
+        -webkit-transition: all .3s ease-in-out;
+        -moz-transition: all .3s ease-in-out;
+        -webkit-transition: all .3s ease-in-out;
         background: #3797dd;
         -webkit-clip-path: polygon(100% 0, 0 100%, 100% 100%);
         -moz-clip-path: polygon(100% 0, 0 100%, 100% 100%);
@@ -922,6 +871,15 @@ border: 1px solid #2185d0;
     bottom: -80px;
   right: -80px;
  }
+.this-overlay2.newslink {
+     background: #6973b2;
+    bottom: 0px;
+  right: 0px;
+}
+.cdb {
+  color: #6973b2 !important;
+}
+
 
  .big-icon{
     width: 49px;
@@ -939,6 +897,9 @@ border: 1px solid #2185d0;
     color: #3797dd;
     font-size: 34px;
 }
+a.big-icon {
+  text-decoration: none;
+}
 .m0 {
   margin:  0;
 }
@@ -954,12 +915,14 @@ border: 1px solid #2185d0;
 .overlay-text {
   position: absolute;
     top: 0;
-    padding: 25px;
     color: #fff;
-    font-size: 17px;
-    font-family: Lato;
+    font-size: 16px;
     opacity: 0;
     -webkit-transition:  all 1s ease-in-out;
+    padding: 10px 15px;
+}
+.overlay-text .list-item {
+    padding: 10px 0;
 }
  .card-image {
   background: url('../img/Green-Nature-Trees-l.jpg') center no-repeat;
@@ -1016,6 +979,41 @@ background: #3797dd;
 background: #fff;
 color: #3797dd;
 
+}
+.curcle-call {
+    border: 1px solid;
+    border-radius: 50%;
+    text-align: center;
+    padding: 5px 7px;
+    margin-right: 5px;
+}
+.social-icon-sprite li {
+    padding: 10px 10px;
+    -webkit-transition: all .2s ease;
+    background: url('../img/social-sprite.png') no-repeat;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.3);
+    margin: 0 5px;
+}
+li.fb-icon {
+    background-position: 0px -120px;
+}
+li.fb-icon:hover {
+    background-position: 0px -150px;
+}
+li.gp-icon {
+    background-position: 0px -300px;
+}
+li.gp-icon:hover {
+    background-position: 0px -330px;
+}
+li.link-icon {
+    background-position: 0px -540px;
+}
+li.link-icon:hover {
+    background-position: 0px -570px;
 }
 @media (max-width: 767px) {
   .main-title {
