@@ -7,6 +7,9 @@
 .overflow-hidden {
 	overflow: hidden;
 }
+.text-left {
+  text-align: left !important;
+}
 .width100px {
   width: 100px;
 }
@@ -81,7 +84,22 @@ font-weight: 500;
 	width: 100%;
 	height: auto;
 }
-
+.small-link-box {
+      margin-bottom: -30px;
+    margin-top: -17px;
+}
+.width70px {
+  width: 70px;
+}
+.text-black a{
+  color: #333;
+}
+.small-links li a{
+  color: #333;
+}
+.small-links li a:hover img{
+  background: rgba(91, 170, 227, 0.83);
+}
 .header {
 	min-height: 65px;
 	width: 100%;
@@ -89,6 +107,13 @@ font-weight: 500;
 	background: #fff;
     border-bottom: 1px solid #eeeeee;
     
+}
+.icon-box.small {
+  width: 100px;
+}
+.icon-box.small > img {
+  width: 100%;
+  height: auto;
 }
 
 .header.scrolled {
@@ -126,7 +151,7 @@ font-weight: 500;
 .header .nav-ul li a {
 	color: #333;
 	font-weight: 400;
-
+  display: block;
 }
 .header .nav-ul li:hover a {
 	color: #fff;
@@ -957,6 +982,26 @@ a.big-icon {
   position: absolute;
   top: -2px;
  }
+ .education-banner {
+  background: rgba(91, 170, 227, 0.83);
+    padding: 15px 5px;
+    border-radius: 3px;
+    box-shadow: 0 1px 7px rgba(0, 0, 0, 0.1);
+    color: #fff;
+ }
+ .phn-list li{
+  font-size: 20px;
+  font-weight: 300;
+ }
+ .pr0 {
+  padding-right: 0;
+ }
+ .pl0 {
+  padding-left: 0;
+ }
+ .text-white {
+  color: #fff !important; 
+ }
  .por {
   position: relative;
  }
@@ -1015,9 +1060,35 @@ li.link-icon {
 li.link-icon:hover {
     background-position: 0px -570px;
 }
+img.bordered {
+  border: 1px solid #c1c1c1;;
+  border-radius: 3px;
+  padding: 6px;
+}
+.icon-box {
+  width: 100%;
+    /*height: 175px;*/
+    border: 1px solid #ddd;
+    padding-top: 25px;
+    padding-bottom: 10px;
+      margin-top: 40px;
+      cursor: pointer;
+      -webkit-transition: all .3s;
+    /*box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.3);*/
+    box-shadow: 0 1px 7px rgba(0, 0, 0, 0.1);
+    border-radius: 3px;
+}
+.icon-box:hover {
+      box-shadow: 0 6px 6px 0 rgba(0, 0, 0, 0.2);
+    background: rgba(91, 170, 227, 0.83);
+}
 @media (max-width: 767px) {
   .main-title {
   	margin-top: 161px ;
   	font-size: 48px;
+  }
+  .small-link-box {
+    margin-top: 25px;
+    margin-bottom: 0;
   }
 }

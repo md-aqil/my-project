@@ -1,52 +1,58 @@
-<?php include "include/front-banner.php" ?>
 <?php include "include/header.php" ?>
+<?php include "include/front-banner.php" ?>
 <div class="container-fluid bg-gray">
-<p>&nbsp;</p>
+	<p>&nbsp;</p>
 	<?php include "include/blog-section.php" ?>
 	<h1>&nbsp;</h1>
 </div>
-	<div class="container">
-		<div class="row">
+		<div class="container">
+			<?php 	include "include/education.php" ?>
 			<h1>&nbsp;</h1>
-			<h1 class="title-header">Valuable leaders of Asraha, and there thoughts</h1>
-			<h3 class="text-center font-light">Always do your best. What you plant now, you will harvest later.</h3>
-			<div class="text-center  hidden-sm hidden-xs"><img  src="img/line.png" alt=""></div>
-				<p>&nbsp;</p>
-				<div class="col-md-4">
-					<div class="head-container">
-						<h4 class="head-name">Khurshid Anwar</h4>
-						<p class="text-muted">July 26, 2016 &nbsp; | &nbsp; Mukhya of Ashraha</p>
-						<div class="head-poaple-img img-name"></div>
-						<p class="abh">
-							As a leader, I am tough on myself and I raise the standard for everybody; however, I am very caring because I want people to excel at what they are doing so that they can aspire to be me in the future."
-							</p>
-					</div>
-				</div>
-				<div class="col-md-4">
-					<div class="head-container">
-						<h4 class="head-name">Khurshid Anwar</h4>
-						<p class="text-muted">July 26, 2016 &nbsp; | &nbsp; Mukhya of Ashraha</p>
-							<div class="head-poaple-img img-name"></div>
-							<p class="abh">
-								As a leader, I am tough on myself and I raise the standard for everybody; however, I am very caring because I want people to excel at what they are doing so that they can aspire to be me in the future."
-								</p>
-
-					</div>
-				</div>
-				<div class="col-md-4">
-					<div class="head-container">
-						<h4 class="head-name">Khurshid Anwar</h4>
-						<p class="text-muted">July 26, 2016 &nbsp; | &nbsp; Mukhya of Ashraha</p>
-							<div class="head-poaple-img img-name"></div>
-							<p class="abh">
-								As a leader, I am tough on myself and I raise the standard for everybody; however, I am very caring because I want people to excel at what they are doing so that they can aspire to be me in the future."
-								</p>
-
-					</div>
-				</div>
-
 		</div>
-	</div><!-- end container -->
+	<div class="container-fluid bg-gray">
+		<div class="container">
+			<div class="row">
+				<h1>&nbsp;</h1>
+				<h1 class="title-header">Valuable leaders of Asraha, and there thoughts</h1>
+				<h3 class="text-center font-light">Always do your best. What you plant now, you will harvest later.</h3>
+				<div class="text-center  hidden-sm hidden-xs"><img  src="img/line.png" alt=""></div>
+					<p>&nbsp;</p>
+					<div class="col-md-4">
+						<div class="head-container">
+							<h4 class="head-name">Khurshid Anwar</h4>
+							<p class="text-muted">July 26, 2016 &nbsp; | &nbsp; Mukhya of Ashraha</p>
+							<div class="head-poaple-img img-name"></div>
+							<p class="abh">
+								As a leader, I am tough on myself and I raise the standard for everybody; however, I am very caring because I want people to excel at what they are doing so that they can aspire to be me in the future."
+								</p>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="head-container">
+							<h4 class="head-name">Khurshid Anwar</h4>
+							<p class="text-muted">July 26, 2016 &nbsp; | &nbsp; Mukhya of Ashraha</p>
+								<div class="head-poaple-img img-name"></div>
+								<p class="abh">
+									As a leader, I am tough on myself and I raise the standard for everybody; however, I am very caring because I want people to excel at what they are doing so that they can aspire to be me in the future."
+									</p>
+
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="head-container">
+							<h4 class="head-name">Khurshid Anwar</h4>
+							<p class="text-muted">July 26, 2016 &nbsp; | &nbsp; Mukhya of Ashraha</p>
+								<div class="head-poaple-img img-name"></div>
+								<p class="abh">
+									As a leader, I am tough on myself and I raise the standard for everybody; however, I am very caring because I want people to excel at what they are doing so that they can aspire to be me in the future."
+									</p>
+
+						</div>
+					</div>
+
+			</div>
+		</div><!-- end container -->
+	</div>
 
 	<h1>&nbsp;</h1>
 	<div class="container-fluid">

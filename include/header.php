@@ -23,9 +23,10 @@
 				<div class="container">
 					<ul class="nav-ul">
 						<li><a href="index.php">Home</a></li>
-						<li><a href="see-all-news.php">Blog</a></li>
-						<li><a href="">home</a></li>
-						<li><a href="">home</a></li>
+						<li><a href="see-all-news.php">News feed</a></li>
+						<li><a href="schools.php">Education</a></li>
+						<li><a href="">Asraha info</a></li>
+						<li><a href="">About us</a></li>
 					</ul>
 			</div>
 				</div>

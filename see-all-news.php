@@ -5,9 +5,9 @@
 			<div class="row">
 				<div class="col-md-12">
 					<h1>&nbsp;</h1>
-					<h1 class="title-header">Valuable leaders of Asraha, and there thoughts</h1>
-					<div class="text-center  hidden-sm hidden-xs"><img  src="img/line.png" alt=""></div>
-						<p>&nbsp;</p>
+					<h1 class="title-header text-left">Latest News</h1>
+					<h3 class="text-center font-light text-left">Always do your best. What you plant now, you will harvest later.</h3>
+					<hr class="styled">
 				</div>
 				<div class="col-md-8">
 					<div class="">
@@ -61,4 +61,98 @@
 			</div>
 		</div><!-- end container -->
 	</div>
+
+	<div class="container-fluid bg-gray">
+<p>&nbsp;</p>
+	<div class="container">
+		<div class="row">
+				<div class="col-md-12">
+					<h1>&nbsp;</h1>
+					<h1 class="title-header text-left">Area News</h1>
+					<h3 class="text-center font-light text-left">Always do your best. What you plant now, you will harvest later.</h3>
+					<hr class="styled">
+				</div>
+						<div class="col-md-6 mt50">
+				<div class="row">
+					<div class="col-md-5">
+							<div class="por">
+					     <div class="news-photos"></div>
+					      		<div class="this-overlay2 newslink"> </div>
+	              				<a href="see-all-news.php" class="big-icon cdb" data-toggle="tooltip" title="" data-original-title="Click to view all!">+</a>
+					     </div>
+					     
+					</div>
+					<div class="col-md-7">
+					<h3 class="news-header"><a href="see-all-news.php">Lorem ipsum dolor sit amet. sit ammet couselustion </a></h3>
+					<p class="text-muted">July 26, 2016 &nbsp; | &nbsp; By: Author</p>
+					<hr class="hr-dashed">
+					<div class="blog-content-box">
+						<p class="abh text-black">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque beatae impedit, placeat commodi dolorem, in, voluptatum nesciunt quasi iusto labore, illo optio perspiciatis ad. Repellat assumenda dolorem commodi voluptatibus odit?</p>
+						</div>
+					</div>
+				</div>
+			</div>
+					<div class="col-md-6 mt50">
+				<div class="row">
+					<div class="col-md-5">
+							<div class="por">
+					     <div class="news-photos"></div>
+					      		<div class="this-overlay2 newslink"> </div>
+	              				<a href="see-all-news.php" class="big-icon cdb" data-toggle="tooltip" title="" data-original-title="Click to view all!">+</a>
+					     </div>
+					     
+					</div>
+					<div class="col-md-7">
+					<h3 class="news-header"><a href="see-all-news.php">Lorem ipsum dolor sit amet. sit ammet couselustion </a></h3>
+					<p class="text-muted">July 26, 2016 &nbsp; | &nbsp; By: Author</p>
+					<hr class="hr-dashed">
+					<div class="blog-content-box">
+						<p class="abh text-black">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque beatae impedit, placeat commodi dolorem, in, voluptatum nesciunt quasi iusto labore, illo optio perspiciatis ad. Repellat assumenda dolorem commodi voluptatibus odit?</p>
+						</div>
+					</div>
+				</div>
+			</div>
+					<div class="col-md-6 mt50">
+				<div class="row">
+					<div class="col-md-5">
+							<div class="por">
+					     <div class="news-photos"></div>
+					      		<div class="this-overlay2 newslink"> </div>
+	              				<a href="see-all-news.php" class="big-icon cdb" data-toggle="tooltip" title="" data-original-title="Click to view all!">+</a>
+					     </div>
+					     
+					</div>
+					<div class="col-md-7">
+					<h3 class="news-header"><a href="see-all-news.php">Lorem ipsum dolor sit amet. sit ammet couselustion </a></h3>
+					<p class="text-muted">July 26, 2016 &nbsp; | &nbsp; By: Author</p>
+					<hr class="hr-dashed">
+					<div class="blog-content-box">
+						<p class="abh text-black">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque beatae impedit, placeat commodi dolorem, in, voluptatum nesciunt quasi iusto labore, illo optio perspiciatis ad. Repellat assumenda dolorem commodi voluptatibus odit?</p>
+						</div>
+					</div>
+				</div>
+			</div>
+					<div class="col-md-6 mt50">
+				<div class="row">
+					<div class="col-md-5">
+							<div class="por">
+					     <div class="news-photos"></div>
+					      		<div class="this-overlay2 newslink"> </div>
+	              				<a href="see-all-news.php" class="big-icon cdb" data-toggle="tooltip" title="" data-original-title="Click to view all!">+</a>
+					     </div>
+					     
+					</div>
+					<div class="col-md-7">
+					<h3 class="news-header"><a href="see-all-news.php">Lorem ipsum dolor sit amet. sit ammet couselustion </a></h3>
+					<p class="text-muted">July 26, 2016 &nbsp; | &nbsp; By: Author</p>
+					<hr class="hr-dashed">
+					<div class="blog-content-box">
+						<p class="abh text-black">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque beatae impedit, placeat commodi dolorem, in, voluptatum nesciunt quasi iusto labore, illo optio perspiciatis ad. Repellat assumenda dolorem commodi voluptatibus odit?</p>
+						</div>
+					</div>
+				</div>
+			</div>
+				</div>
+	</div>	<h1>&nbsp;</h1>
+</div>
 <?php include "include/footer.php" ?>
