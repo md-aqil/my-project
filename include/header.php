@@ -26,7 +26,7 @@
 						<li><a href="see-all-news.php">News feed</a></li>
 						<li><a href="schools.php">Education</a></li>
 						<li><a href="">Asraha info</a></li>
-						<li><a href="">About us</a></li>
+						<li><a href="aboutus.php">About us</a></li>
 					</ul>
 			</div>
 				</div>

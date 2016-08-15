@@ -1,9 +1,11 @@
 <?php include "include/header.php" ?>
 <?php include "include/front-banner.php" ?>
 <div class="container-fluid bg-gray">
-	<p>&nbsp;</p>
-	<?php include "include/blog-section.php" ?>
+	<div class="">
+		<p>&nbsp;</p>
+			<?php include "include/blog-section.php" ?>
 	<h1>&nbsp;</h1>
+	</div>
 </div>
 		<div class="container">
 			<?php 	include "include/education.php" ?>

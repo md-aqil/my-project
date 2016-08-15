@@ -86,9 +86,10 @@
 					    </a>
 					  </div>
 					  <div class="media-body">
+					  <a href="">
 					    <h4 class="media-heading">R.B Jalan College</h4>
+					  </a>
 					    <p class="text-muted">Darbhanga</p>
-					   		
 					  </div>
 					</div>
 					<hr style="border-color: #ccc;">

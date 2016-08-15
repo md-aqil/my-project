@@ -5,7 +5,7 @@
 			<h3 class="text-center font-light">Always do your best. What you plant now, you will harvest later.</h3>
 			<div class="text-center  hidden-sm hidden-xs"><img  src="img/line.png" alt=""></div>
 	</div>
-	<div class="col-md-3">
+	<div class="col-md-3 col-xs-6">
 		<a href="schools.php">
 			<div class="icon-box text-center">
 				<img src="img/school.png">
@@ -14,16 +14,16 @@
 		</a>
 	</div>
 
-	<div class="col-md-3">
+	<div class="col-md-3 col-xs-6">
 	  <a href="college.php">
 			<div class="icon-box text-center">
-				<img src="img/blackboard.svg" width="128">
+				<img class="" src="img/blackboard.svg" width="128">
 				<h3 class="font-light">College</h3>
 			</div>
 		</a>
 	</div>
 	
-	<div class="col-md-3">
+	<div class="col-md-3 col-xs-6">
 		<a href="university.php">
 			<div class="icon-box text-center">
 				<img src="img/university.svg" width="128">
@@ -31,7 +31,7 @@
 			</div>
 		</a>
 	</div>
-	<div class="col-md-3">
+	<div class="col-md-3 col-xs-6">
 	<a href="results.php">
 		<div class="icon-box text-center">
 			<img src="img/results2.svg" width="128">

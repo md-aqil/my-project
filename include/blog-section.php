@@ -5,6 +5,7 @@
 				<h3 class="text-center font-light">Always do your best. What you plant now, you will harvest later.</h3>
 				<h1>&nbsp;</h1>
 			</div>
+
 			<?php for ($i=0; $i < 4; $i++) {?>
 			<div class="col-md-6 mt50">
 				<div class="row">
