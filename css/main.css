@@ -13,6 +13,7 @@
 .width100px {
   width: 100px;
 }
+
 a h3 {
   color: #333 !important;
 }
@@ -775,10 +776,7 @@ background: none;
   border-radius: 0;
   background: transparent;
 }
-.material-label.textarea {
-	/* top:  22px; */
 
-}
 .hr-dashed {
 	margin-bottom: 0;
     border-color: #9c9c9c;
@@ -871,6 +869,7 @@ border: 1px solid #2185d0;
     padding-top: 15px;
 
 }
+
 /* extra btn slider style */
 .carousel-inner .active.left { left: -25%; }
 .carousel-inner .next        { left:  25%; }
@@ -1087,10 +1086,32 @@ img.bordered {
     box-shadow: 0 1px 7px rgba(0, 0, 0, 0.1);
     border-radius: 3px;
 }
+.panel.panel-blog {
+  box-shadow: 0 1px 3px 0 rgba(0,0,0,.2),0 1px 1px 0 rgba(0,0,0,.14),0 2px 1px -1px rgba(0,0,0,.12);
+  border: none;
+}
+
 .icon-box:hover {
       box-shadow: 0 6px 6px 0 rgba(0, 0, 0, 0.2);
     background: rgba(91, 170, 227, 0.83);
 }
+.panel-blog>.panel-heading {
+  padding: 0;
+  border-bottom: 0;
+}
+.panel-blog>.panel-heading img{
+  border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+.panel-blog p{
+
+    font-size: 1.6rem;
+    font-weight: 400;
+    letter-spacing: 0.010em;
+    line-height: 1.6em;
+    margin: 0.8em 0 1.6em;
+}
+
 @media (max-width: 767px) {
   .main-title {
   	margin-top: 161px ;
