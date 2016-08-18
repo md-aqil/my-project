@@ -8,7 +8,7 @@
 	</div>
 </div>
 		<div class="container">
-		<button class="ripple por btn" data-ripple-color="#89669b">Login</button>
+		<!-- <button class="ripple por btn" data-ripple-color="#89669b">Login</button> -->
 			<?php include "include/education-section.php" ?>
 			<h1>&nbsp;</h1>
 		</div>
@@ -382,7 +382,7 @@
                         <span class="bar"></span>
                       <label class="material-label textarea">Name</label>
                   </div>
-              		<button class="modal-btn-round">Submit</button>
+              		<button class="modal-btn-round ripple">Submit</button>
                 </form> 
 
         </div>
