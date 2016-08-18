@@ -8,7 +8,7 @@
 	</div>
 </div>
 		<div class="container">
-			<?php 	include "include/education-section.php" ?>
+			<?php include "include/education-section.php" ?>
 			<h1>&nbsp;</h1>
 		</div>
 	<div class="container-fluid bg-gray">
@@ -60,8 +60,10 @@
 
 	<h1>&nbsp;</h1>
 	<div class="container-fluid">
-		<div class="container">
-			<?php include "include/slider.php" ?>
+		<div class="row">
+			<div class="container">
+				<?php include "include/slider.php" ?>
+			</div>
 		</div>
 	</div>
 
