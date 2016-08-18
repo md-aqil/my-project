@@ -7,7 +7,7 @@
 							<h3 class="text-center font-light text-left">Always do your best. What you plant now, you will harvest later.</h3>
 						</div>
 						<div class="col-md-3 hidden-xs">
-							<button class="modal-btn-round mt52">View All  <span style="font-size: 18px;"> &nbsp; &#8594;</span></button>
+							<a href="see-all-news.php" class="modal-btn-round mt52 ripple">View All  <span style="font-size: 18px;"> &nbsp; &#8594;</span></a>
 						</div>
 						<div class="col-md-12">
 							<hr class="styled" style="border-color: #c1c1c1;">
@@ -21,7 +21,7 @@
 							<div class="por">
 					     <div class="news-photos"></div>
 					      		<div class="this-overlay2 newslink"> </div>
-	              				<a href="see-all-news.php" class="big-icon cdb" data-toggle="tooltip" title="Click to view all!" >+</a>
+	              				<a href="see-all-news.php" class="big-icon cdb" data-ripple-color="#6973b2" data-toggle="tooltip" title="Click to view all!" >+</a>
 					     </div>
 					     
 					</div>
@@ -37,7 +37,7 @@
 			</div>
 		<?php } ?>
 			<div class="col-md-12 visible-xs">
-				<a href="see-all-news.php" class="modal-btn-round mt20 btn-block">View All  <span style="font-size: 18px;"> &nbsp; &#8594;</span></a>
+				<a href="see-all-news.php" class="modal-btn-round mt20 btn-block ripple">View All  <span style="font-size: 18px;"> &nbsp; &#8594;</span></a>
 			</div>
 		</div>
 	</div>

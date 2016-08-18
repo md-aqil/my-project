@@ -38,14 +38,15 @@
 			<h1 class="pull-left m-logo text-shadow" style="margin-top: 5px;margin-left: 10px;">
 			<a href="index.php">Asraha</a></h1>
     
-		<div class="mobile-inner-header-icon mobile-inner-header-icon-out">
-		<span></span><span></span></div>
+		<div class="mobile-inner-header-icon mobile-inner-header-icon-out ripple">
+				<span></span><span></span>
+		</div>
 		<div class="mobile-inner-nav">
-			<a href="index.php">Home</a>
-			<a href="see-all-news.php">News feed</a>
-			<a href="schools.php">Education</a>
-			<a href="">Asraha info</a>
-			<a href="aboutus.php">About us</a>
+			<a href="index.php" class="ripple">Home</a>
+			<a href="see-all-news.php" class="ripple">News feed</a>
+			<a href="schools.php" class="ripple">Education</a>
+			<a href="" class="ripple">Asraha info</a>
+			<a href="aboutus.php" class="ripple">About us</a>
 		</div>
 	</div>
 </div>

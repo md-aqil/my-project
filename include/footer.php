@@ -119,12 +119,8 @@ $(document).ready(function(){
 <!-- for ripple effec  -->
 <script type="">
 	(function (window, $) {
-  
   $(function() {
-    
-    
     $('.ripple').on('click', function (event) {
-      event.preventDefault();
       
       var $div = $('<div/>'),
           btnOffset = $(this).offset(),

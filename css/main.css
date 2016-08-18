@@ -743,6 +743,7 @@ background: none;
 }
 
 .modal-btn-round {
+  display: inline-block;
  background: #2185d0;
     border: none;
     font-size: 16px;
@@ -1170,7 +1171,9 @@ font-weight: bold;
   background: white; 
   animation: ripple-animation 2s;
 }
-
+.ripple.pa {
+  position: absolute;
+}
 @keyframes ripple-animation {
     from {
       transform: scale(1);
