@@ -8,7 +8,8 @@
 	</div>
 </div>
 		<div class="container">
-			<?php 	include "include/education-section.php" ?>
+		<button class="ripple por btn" data-ripple-color="#89669b">Login</button>
+			<?php include "include/education-section.php" ?>
 			<h1>&nbsp;</h1>
 		</div>
 	<div class="container-fluid bg-gray">
