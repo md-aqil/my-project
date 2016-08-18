@@ -1,59 +1,61 @@
 <?php include "include/header.php" ?>
 <?php include "include/front-banner.php" ?>
 <div class="container-fluid bg-gray">
-	<div class="">
-		<p>&nbsp;</p>
+	<div class="row">
+		<h1>&nbsp;</h1>
 			<?php include "include/blog-section.php" ?>
 	<h1>&nbsp;</h1>
 	</div>
 </div>
 		<div class="container">
-			<?php 	include "include/education.php" ?>
+			<?php 	include "include/education-section.php" ?>
 			<h1>&nbsp;</h1>
 		</div>
 	<div class="container-fluid bg-gray">
-		<div class="container">
-			<div class="row">
-				<h1>&nbsp;</h1>
-				<h1 class="title-header">Valuable leaders of Asraha, and there thoughts</h1>
-				<h3 class="text-center font-light">Always do your best. What you plant now, you will harvest later.</h3>
-				<div class="text-center  hidden-sm hidden-xs"><img  src="img/line.png" alt=""></div>
-					<p>&nbsp;</p>
-					<div class="col-md-4">
-						<div class="head-container">
-							<h4 class="head-name">Khurshid Anwar</h4>
-							<p class="text-muted">July 26, 2016 &nbsp; | &nbsp; Mukhya of Ashraha</p>
-							<div class="head-poaple-img img-name"></div>
-							<p class="abh">
-								As a leader, I am tough on myself and I raise the standard for everybody; however, I am very caring because I want people to excel at what they are doing so that they can aspire to be me in the future."
-								</p>
-						</div>
-					</div>
-					<div class="col-md-4">
-						<div class="head-container">
-							<h4 class="head-name">Khurshid Anwar</h4>
-							<p class="text-muted">July 26, 2016 &nbsp; | &nbsp; Mukhya of Ashraha</p>
+		<div class="row">
+			<div class="container">
+				<div class="row">
+					<h1>&nbsp;</h1>
+					<h1 class="title-header">Valuable leaders of Asraha, and there thoughts</h1>
+					<h3 class="text-center font-light">Always do your best. What you plant now, you will harvest later.</h3>
+					<div class="text-center  hidden-sm hidden-xs"><img  src="img/line.png" alt=""></div>
+						<p>&nbsp;</p>
+						<div class="col-md-4">
+							<div class="head-container">
+								<h4 class="head-name">Khurshid Anwar</h4>
+								<p class="text-muted">July 26, 2016 &nbsp; | &nbsp; Mukhya of Ashraha</p>
 								<div class="head-poaple-img img-name"></div>
 								<p class="abh">
 									As a leader, I am tough on myself and I raise the standard for everybody; however, I am very caring because I want people to excel at what they are doing so that they can aspire to be me in the future."
 									</p>
-
+							</div>
 						</div>
-					</div>
-					<div class="col-md-4">
-						<div class="head-container">
-							<h4 class="head-name">Khurshid Anwar</h4>
-							<p class="text-muted">July 26, 2016 &nbsp; | &nbsp; Mukhya of Ashraha</p>
-								<div class="head-poaple-img img-name"></div>
-								<p class="abh">
-									As a leader, I am tough on myself and I raise the standard for everybody; however, I am very caring because I want people to excel at what they are doing so that they can aspire to be me in the future."
-									</p>
+						<div class="col-md-4">
+							<div class="head-container">
+								<h4 class="head-name">Khurshid Anwar</h4>
+								<p class="text-muted">July 26, 2016 &nbsp; | &nbsp; Mukhya of Ashraha</p>
+									<div class="head-poaple-img img-name"></div>
+									<p class="abh">
+										As a leader, I am tough on myself and I raise the standard for everybody; however, I am very caring because I want people to excel at what they are doing so that they can aspire to be me in the future."
+										</p>
 
+							</div>
 						</div>
-					</div>
+						<div class="col-md-4">
+							<div class="head-container">
+								<h4 class="head-name">Khurshid Anwar</h4>
+								<p class="text-muted">July 26, 2016 &nbsp; | &nbsp; Mukhya of Ashraha</p>
+									<div class="head-poaple-img img-name"></div>
+									<p class="abh">
+										As a leader, I am tough on myself and I raise the standard for everybody; however, I am very caring because I want people to excel at what they are doing so that they can aspire to be me in the future."
+										</p>
 
-			</div>
-		</div><!-- end container -->
+							</div>
+						</div>
+
+				</div>
+			</div><!-- end container -->
+		</div>
 	</div>
 
 	<h1>&nbsp;</h1>
@@ -284,7 +286,7 @@
 
 
 <!-- clients -->
-<div class="container-fluid bg-gray">
+<div class="container-fluid">
 	<div class="row">
 		<div class="pointer-box">
 			<div class="">
@@ -301,55 +303,21 @@
 				   <img class="" src="img/Green-Nature-Trees-l.jpg" alt="">
 				</div>
 			</div>
+			<h1>&nbsp;</h1>
 		</div>
 		
 	</div>
 </div>
 
 <div id="page-1"></div>
-<div class="container">
-	<div class="row">
-		<div class="our-blog">
-			<h1 class="mt100 text-center font-light">Hello World</h1>
-			<div class="text-center  hidden-sm hidden-xs"><img  src="img/line.png" alt=""></div>
-			<h1>&nbsp;</h1>
-			<div class="col-md-6 img100">
-				<div class="cycle-slideshow" 
-				    data-cycle-fx=scrollHorz
-				    data-cycle-timeout=2000
-				    >
-				    <!-- empty element for overlay -->
-				    <div class="cycle-overlay"></div>
 
-				    <img src="http://malsup.github.io/images/p1.jpg" 
-				        data-cycle-title="Spring" 
-				        data-cycle-desc="Sonnenberg Gardens">
-				    <img src="http://malsup.github.io/images/p2.jpg" 
-				        data-cycle-title="Redwoods" 
-				        data-cycle-desc="Muir Woods National Monument">
-				    <img src="http://malsup.github.io/images/p3.jpg" 
-				        data-cycle-title="Angel Island" 
-				        data-cycle-desc="San Franscisco Bay">
-				    <img src="http://malsup.github.io/images/p4.jpg" 
-				        data-cycle-title="Raquette Lake" 
-				        data-cycle-desc="Adirondack State Park">
-				</div>
-
-			</div>
-			<div class="col-md-6">
-				<img class="img-responsive" src="img/Green-Nature-Trees-l.jpg" alt="">
-				<h3 class="font-light">Lorem ipsum dolor sit amet.</h3>
-				<p class="fz17 font-md">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium omnis consectetur corporis delectus accusamus neque.</p>
-			</div>
-		</div>
-	</div>
-</div>
 <br>	
 
 <div class="container-fluid bg-gray">
 	<div class="container">
 		<div class="row">
 			 <div class="col-md-12">
+			 <p>&nbsp;</p>
 			 		<h1 class="text-center font-light" id="page-2">Contact Us</h1>
 			 		<h3 class="text-center font-light">Always do your best. What you plant now, you will harvest later.</h3>
 			<div class="text-center  hidden-sm hidden-xs"><img  src="img/line.png" alt=""></div>

@@ -1,11 +1,19 @@
 <div class="container">
 		<div class="row">
-			<div class="col-md-12">
-				<h1 class="title-header cdb">All News Around Darbhanga</h1>
-				<h3 class="text-center font-light">Always do your best. What you plant now, you will harvest later.</h3>
-				<h1>&nbsp;</h1>
-			</div>
-
+			<div class="col-md-12 clearfix">
+				<div class="row">
+						<div class="col-md-9">
+							<h1 class="title-header text-left cdb">All News Around Darbhanga</h1>
+							<h3 class="text-center font-light text-left">Always do your best. What you plant now, you will harvest later.</h3>
+						</div>
+						<div class="col-md-3">
+							<button class="modal-btn-round mt52">View All  <span style="font-size: 18px;"> &nbsp; &#8594;</span></button>
+						</div>
+						<div class="col-md-12">
+							<hr class="styled" style="border-color: #c1c1c1;">
+						</div>
+					</div>
+				</div>
 			<?php for ($i=0; $i < 4; $i++) {?>
 			<div class="col-md-6 mt50">
 				<div class="row">

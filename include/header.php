@@ -9,7 +9,6 @@
 	<link rel="stylesheet" href="css/animate.css">
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/effect.css">
-	<link rel="stylesheet" href="css/Icomoon/style.css">
 	<link rel="stylesheet" href="css/main.css">
 
 </head>
@@ -21,6 +20,7 @@
 		<div class="row">
 			<div class="header animated">
 				<div class="container">
+				<h1 class="pull-left asraha-logo">Asraha</h1>
 					<ul class="nav-ul">
 						<li><a href="index.php">Home</a></li>
 						<li><a href="see-all-news.php">News feed</a></li>
@@ -35,13 +35,13 @@
 
 <div class="container-fluid por">	
 	<div class="mobile-inner-header res-header-mobile animated visible-sm visible-xs">
+			<h1 class="pull-left text-white" style="margin-top: 5px;margin-left: 10px;">Asraha</h1>
+    
 		<div class="mobile-inner-header-icon mobile-inner-header-icon-out">
 		<span></span><span></span></div>
 		<div class="mobile-inner-nav">
-
 			<li><a href="index.php">Home</a></li>
 			<li><a href="see-all-news.php">Blog</a></li>
-
 			<a href="#">Portfolio</a>
 			<a href="#">Blog</a>
 			<a href="#">About</a>

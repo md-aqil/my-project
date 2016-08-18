@@ -49,10 +49,10 @@
 						<h4 class="head-name">Lorem ipsum dolor sit amet. </h4>
 						<p class="text-muted">July 26, 2016 &nbsp; | &nbsp; Mukhya of Ashraha</p>
 						<div class="education-banner clearfix">
-							<div class="col-md-3 pr0">
-								<img src="img/school.png">
+							<div class="col-md-3 pr0 ">
+								<img class="mtext-center" src="img/school.png">
 							</div>
-							<div class="col-md-9 pl0">
+							<div class="col-md-9">
 								<h1 class="title-header text-left text-white">CM Science College</h1>
 								<ul class="list-inline phn-list">
 									<li><i class="glyphicon glyphicon-map-marker"></i> Darbhanga </li>
