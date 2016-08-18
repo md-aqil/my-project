@@ -27,7 +27,7 @@
 			<h1 class="main-title text-shadow font-light">INCREDIBLE <span class="font-bold"> &nbsp; ASRAHA</span></h1>
 
 			<h1 class="anim-text">
-				<span class="tlt font-md" data-in-effect="bounceInDown" data-out-effect="fadeInLeftBig">
+				<span class="tlt font-md" data-in-effect="bounceInDown">
 					<u class="texts">
 						<li class="text-shadow">A creative man is motivated by the desire to achieve, not by the desire to beat others.
  						</li>

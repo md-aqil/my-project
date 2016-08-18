@@ -37,7 +37,7 @@
 			</div>
 		<?php } ?>
 			<div class="col-md-12 visible-xs">
-				<button class="modal-btn-round mt20 btn-block">View All  <span style="font-size: 18px;"> &nbsp; &#8594;</span></button>
+				<a href="see-all-news.php" class="modal-btn-round mt20 btn-block">View All  <span style="font-size: 18px;"> &nbsp; &#8594;</span></a>
 			</div>
 		</div>
 	</div>

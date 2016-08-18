@@ -93,7 +93,7 @@ $(".mobile-inner-nav a").each(function( index ) {
 
 // multiple images slider
 $('#myCarousel').carousel({
-  interval: 4000
+  interval: 20000
 })
 
 $('.carousel .item').each(function(){

@@ -753,6 +753,8 @@ background: none;
     -webkit-transition: all .3s;
     -webkit-outline: none;
     -moz-outline: none;
+    text-align: center;
+    text-decoration:none;
     outline: none;
     margin-top: 10px;
     margin-bottom: 15px;
@@ -1188,5 +1190,8 @@ font-weight: bold;
  }
  .icon-box img{
      width: 100px;
+ }
+ #next, #prev {
+  display: none;
  }
 }

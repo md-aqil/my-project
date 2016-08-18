@@ -1,5 +1,6 @@
 <?php include "include/header.php" ?>
 	<div class="container-fluid bg-gray">
+<h1>&nbsp;</h1>
 		<div class="row">
 			<div class="container">
 				<div class="row">
