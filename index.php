@@ -61,8 +61,10 @@
 
 	<h1>&nbsp;</h1>
 	<div class="container-fluid">
-		<div class="container">
-			<?php include "include/slider.php" ?>
+		<div class="row">
+			<div class="container">
+				<?php include "include/slider.php" ?>
+			</div>
 		</div>
 	</div>
 

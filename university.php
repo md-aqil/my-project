@@ -1,5 +1,4 @@
 <?php include "include/header.php" ?>
-<div id="page-down"></div>
 	<div class="container-fluid bg-gray">
 		<div class="row">
 			<div class="container">

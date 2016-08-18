@@ -20,7 +20,7 @@
 		<div class="row">
 			<div class="header animated">
 				<div class="container">
-				<h1 class="pull-left asraha-logo">Asraha</h1>
+				<h1 class="pull-left asraha-logo text-shadow"><a href="index.php">Asraha</a></h1>
 					<ul class="nav-ul">
 						<li><a href="index.php">Home</a></li>
 						<li><a href="see-all-news.php">News feed</a></li>
@@ -35,17 +35,17 @@
 
 <div class="container-fluid por">	
 	<div class="mobile-inner-header res-header-mobile animated visible-sm visible-xs">
-			<h1 class="pull-left text-white" style="margin-top: 5px;margin-left: 10px;">Asraha</h1>
+			<h1 class="pull-left m-logo text-shadow" style="margin-top: 5px;margin-left: 10px;">
+			<a href="index.php">Asraha</a></h1>
     
 		<div class="mobile-inner-header-icon mobile-inner-header-icon-out">
 		<span></span><span></span></div>
 		<div class="mobile-inner-nav">
-			<li><a href="index.php">Home</a></li>
-			<li><a href="see-all-news.php">Blog</a></li>
-			<a href="#">Portfolio</a>
-			<a href="#">Blog</a>
-			<a href="#">About</a>
-			<a href="#">Contact</a>
+			<a href="index.php">Home</a>
+			<a href="see-all-news.php">News feed</a>
+			<a href="schools.php">Education</a>
+			<a href="">Asraha info</a>
+			<a href="aboutus.php">About us</a>
 		</div>
 	</div>
 </div>
