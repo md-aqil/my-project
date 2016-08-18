@@ -6,7 +6,7 @@
 							<h1 class="title-header text-left cdb">All News Around Darbhanga</h1>
 							<h3 class="text-center font-light text-left">Always do your best. What you plant now, you will harvest later.</h3>
 						</div>
-						<div class="col-md-3">
+						<div class="col-md-3 hidden-xs">
 							<button class="modal-btn-round mt52">View All  <span style="font-size: 18px;"> &nbsp; &#8594;</span></button>
 						</div>
 						<div class="col-md-12">
@@ -36,5 +36,8 @@
 				</div>
 			</div>
 		<?php } ?>
+			<div class="col-md-12 visible-xs">
+				<button class="modal-btn-round mt20 btn-block">View All  <span style="font-size: 18px;"> &nbsp; &#8594;</span></button>
+			</div>
 		</div>
 	</div>
