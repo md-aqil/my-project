@@ -5,6 +5,7 @@
 	<meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="A fully featured admin theme which can be used to build CRM, CMS, etc.">
+    <script src="js/preloder.js"></script>
 	<link rel="stylesheet" href="css/bootstrap.css">
 	<link rel="stylesheet" href="css/animate.css">
 	<link rel="stylesheet" href="css/style.css">
@@ -13,9 +14,11 @@
 
 </head>
 <body>
+<div class="container" id="preloader">
+	<canvas id="drawing_canvas"></canvas>
+</div>
 
-<span id="go-top"></span>
-
+<div id="main-wrapper" style="display:none">
 <div class="container-fluid res-header-desktop hidden-sm hidden-xs">
 		<div class="row">
 			<div class="header animated">

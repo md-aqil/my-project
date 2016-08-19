@@ -5,6 +5,7 @@
 	</div>
 </div>
 </div>
+</div><!-- main-warapper -->
 
 <script src="js/jquery.min.js"></script>
 <script src="js/jquery.fittext.js"></script>
@@ -151,5 +152,13 @@ $(document).ready(function(){
 })(window, jQuery);
 </script>
 <!-- for ripple effec  End-->
+
+
+<script>
+	window.onload = function() {
+		document.getElementById('main-wrapper').style.display = 'block';
+		document.getElementById('preloader').style.display = 'none';
+	}
+</script>
 </body>
 </html>

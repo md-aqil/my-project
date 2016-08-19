@@ -5,8 +5,8 @@
   </div>
   <div class="col-md-4">
     <div class="bt-sliderbtn pull-right clearfix">
-      <a class="btnhover-ripple" href="#myCarousel" data-slide="prev"><i class="glyphicon glyphicon-menu-left"></i><span></span> </a>
-      <a class="btnhover-ripple" href="#myCarousel" data-slide="next"><i class="glyphicon glyphicon-menu-right"></i><span></span></a>
+      <a class="btnhover-ripple ripple" data-ripple-color="#3797dd" href="#myCarousel" data-slide="prev"><i class="glyphicon glyphicon-menu-left"></i><span></span> </a>
+      <a class="btnhover-ripple ripple" data-ripple-color="#3797dd" href="#myCarousel" data-slide="next"><i class="glyphicon glyphicon-menu-right"></i><span></span></a>
   </div> 
   </div>
 </div>
