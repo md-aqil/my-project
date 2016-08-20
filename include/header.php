@@ -23,7 +23,7 @@
 		<div class="row">
 			<div class="header animated">
 				<div class="container">
-				<h1 class="pull-left asraha-logo text-shadow"><a href="index.php">Asraha</a></h1>
+				<h1 class="pull-left asraha-logo text-shadow"><a href="index.php"><img src="img/as-logo-black-s.png" alt=""></a></h1>
 					<ul class="nav-ul">
 						<li><a href="index.php">Home</a></li>
 						<li><a href="see-all-news.php">News feed</a></li>
@@ -38,8 +38,8 @@
 
 <div class="container-fluid por">	
 	<div class="mobile-inner-header res-header-mobile animated visible-sm visible-xs">
-			<h1 class="pull-left m-logo text-shadow" style="margin-top: 5px;margin-left: 10px;">
-			<a href="index.php">Asraha</a></h1>
+			<h1 class="pull-left m-logo text-shadow" style="margin-top: 3px;margin-left: 10px;">
+			<a href="index.php"><img src="img/as-logo-white-s.png" alt=""></a></h1>
     
 		<div class="mobile-inner-header-icon mobile-inner-header-icon-out ripple">
 				<span></span><span></span>
