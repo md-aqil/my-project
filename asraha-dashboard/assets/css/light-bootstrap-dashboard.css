@@ -1380,6 +1380,9 @@ body > .navbar-collapse[data-color="purple"]:after {
   margin: 10px 3px;
   position: relative;
 }
+.navbar .navbar-nav > li:hover {
+  background: #7a4cbf;
+}
 .navbar .navbar-nav > li > a.btn {
   margin: 15px 3px;
   padding: 8px 16px;
@@ -3383,16 +3386,28 @@ body > .navbar-collapse[data-color="purple"]:after {
   }
 }
 
-.dasboard-user-img > img {
+.dasboard-user-img > .user-img {
+    background: url(../img/faces/face-3.jpg) no-repeat center;
+    width: 120px;
+    height: 120px;
     box-shadow: 0 6px 6px 0 rgba(0, 0, 0, 0.2);
     margin-top: 20px;
     margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 6px;
+    background-size: 100%;
 }
 .for-sideimage {
  background-image: url(assets/img/sidebar-1.jpg);
 }
 .gradiant-color {
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #9368E9), color-stop(100%, #943bea));
+}
+.user-img {
+  width: 150px;
+  height: auto;
+  /*display: block;*/
 }
 @media (max-width: 991px) {
   .table-responsive {

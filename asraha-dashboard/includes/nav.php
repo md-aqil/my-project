@@ -45,7 +45,8 @@
                         </li>
                         <li class="dropdown">
                               <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                                    Dropdown
+                                <i class="fa fa-user"></i>
+                                    md-aqil
                                     <b class="caret"></b>
                               </a>
                               <ul class="dropdown-menu">
@@ -58,11 +59,7 @@
                                 <li><a href="#">Separated link</a></li>
                               </ul>
                         </li>
-                        <li>
-                            <a href="#">
-                                Log out
-                            </a>
-                        </li>
+                       
                     </ul>
                 </div>
             </div>

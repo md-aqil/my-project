@@ -5,7 +5,7 @@
 	<link rel="icon" type="image/png" href="assets/img/favicon.ico">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 
-	<title>Light Bootstrap Dashboard by Creative Tim</title>
+	<title>Asraha</title>
 
 	<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
     <meta name="viewport" content="width=device-width" />
@@ -45,11 +45,11 @@
     	<div class="sidebar-wrapper for-sideimage">
             <div class="logo">
                 <a href="http://www.creative-tim.com" class="simple-text">
-                    Creative Tim
+                    <img src="assets/img/as-logo-white-s.png" width="150">
                 </a>
             </div>
             <div class="dasboard-user-img text-center">
-                <img class="img-rounded " src="assets/img/faces/face-3.jpg" alt="">
+                <div class="user-img"></div>
                 <p>Md aqil</p>
             </div>
             <hr style="border-color:rgba(255, 255, 255, 0.2); width: 80%; margin: 20px auto;margin-top:10px;">
