@@ -14,14 +14,15 @@
 						</div>
 					</div>
 				</div>
+
 			<?php for ($i=0; $i < 4; $i++) {?>
 			<div class="col-md-6 mt50">
 				<div class="row">
 					<div class="col-md-5">
 							<div class="por">
-					     <div class="news-photos"></div>
+					     <div class="news-photos"><img  src="img/aqil-1.jpg"></div>
 					      		<div class="this-overlay2 newslink"> </div>
-	              				<a href="see-all-news.php" class="big-icon cdb" data-ripple-color="#6973b2" data-toggle="tooltip" title="Click to view all!" >+</a>
+	              				<a href="see-all-news.php" class="big-icon cdb" tooltip" title="Click to view all!" >+</a>
 					     </div>
 					     
 					</div>

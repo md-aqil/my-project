@@ -129,8 +129,13 @@ font-weight: 500;
 .cycle-overlay {
     font-size: 17px;
     padding: 10px;
-    color: #fff;
-    background: rgba(91, 170, 227, 0.83);
+    color: #333;
+    border-top: 1px solid rgba(91, 170, 227, 0.83);
+}
+.bor {
+    border-radius: 3px;
+    border: 1px solid rgba(91, 170, 227, 0.83);
+box-shadow: 0 1px 3px 0 rgba(0,0,0,.2),0 1px 1px 0 rgba(0,0,0,.14),0 2px 1px -1px rgba(0,0,0,.12);
 }
 .header .nav-ul {
 	list-style: none;
@@ -194,7 +199,7 @@ input {
 
 label {
   display: inline-block;
-  margin: 0 0 -1px;
+  margin: 0 0 -5px;
   padding: 15px 25px;
   font-weight: 600;
   text-align: center;
@@ -705,10 +710,10 @@ background: none;
     font-size: 20px;
 }
 .news-photos {
-	background: url('../img/Green-Nature-Trees-l.jpg') center no-repeat;
-	background-size: cover;
-	width: 100%;
-	height: 173px;
+	width: 213px;
+}
+.news-photos >img {
+  width: 100%;
 }
 .news-header {
 	margin-top: 0;
@@ -1044,34 +1049,8 @@ color: #3797dd;
     padding: 5px 7px;
     margin-right: 5px;
 }
-.social-icon-sprite li {
-    padding: 10px 10px;
-    -webkit-transition: all .2s ease;
-    background: url('../img/social-sprite.png') no-repeat;
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.3);
-    margin: 0 5px;
-}
-li.fb-icon {
-    background-position: 0px -120px;
-}
-li.fb-icon:hover {
-    background-position: 0px -150px;
-}
-li.gp-icon {
-    background-position: 0px -300px;
-}
-li.gp-icon:hover {
-    background-position: 0px -330px;
-}
-li.link-icon {
-    background-position: 0px -540px;
-}
-li.link-icon:hover {
-    background-position: 0px -570px;
-}
+
+
 img.bordered {
   border: 1px solid #c1c1c1;;
   border-radius: 3px;

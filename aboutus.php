@@ -22,17 +22,17 @@
 						</p>
 					</div>
 					<div class="col-md-6">
-				<div class="cycle-slideshow img100 por" 
+				<div class="cycle-slideshow img100 por bor" 
 				    data-cycle-fx=scrollHorz
-				    data-cycle-timeout=2000
+				    data-cycle-timeout=10000
 				    >
 				    <!-- empty element for overlay -->
 				    <div class="cycle-overlay"></div>
-				    <img src="img/Green-Nature-Trees-l.jpg" 
+				    <img src="img/aqil-1.jpg" 
 				        data-cycle-title="Spring" 
 				        data-cycle-desc="Sonnenberg Gardens">
 
-				    <img src="img/Green-Nature-Trees-l.jpg" 
+				    <img src="img/aqil-1.jpg" 
 				        data-cycle-title="Redwoods" 
 				        data-cycle-desc="Muir Woods National Monument">
 				</div>

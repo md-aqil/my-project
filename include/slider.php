@@ -29,15 +29,12 @@
 						</li>
 						<li class="list-item"><a href=""><span class="curcle-call"><i class="glyphicon glyphicon-envelope"></i></span> 7210562014</a></li>
 					</ul>
-					<ul class="list-inline social-icon-sprite text-center">
-						<li class="fb-icon"></li>
-						<li class="gp-icon"></li>
-						<li class="link-icon"></li>
-					</ul>
+					
 	              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem asperiores, ut. Corporis quidem vel est perspiciatis, at commodi enim adipisci deleniti nihil veritatis obcaecati optio fugiat fugit voluptates molestias repudiandae?
 	              </div>
 	            </div>
-	            <div class="disc">
+	            <div 
+	            class="disc">
 	              <p class="cardname">lorem</p>
 	              <h4 class="m0">ipsum doller</h4>
 	            </div>
@@ -58,11 +55,7 @@
 						</li>
 						<li class="list-item"><a href=""><span class="curcle-call"><i class="glyphicon glyphicon-envelope"></i></span> 7210562014</a></li>
 					</ul>
-					<ul class="list-inline social-icon-sprite text-center">
-						<li class="fb-icon"></li>
-						<li class="gp-icon"></li>
-						<li class="link-icon"></li>
-					</ul>
+					
 	              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem asperiores, ut. Corporis quidem vel est perspiciatis, at commodi enim adipisci deleniti nihil veritatis obcaecati optio fugiat fugit voluptates molestias repudiandae?
 	              </div>
 	            </div>
